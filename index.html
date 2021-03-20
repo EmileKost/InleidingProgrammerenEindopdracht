@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="jouw naam">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gitta Giraffe</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body id="game">
+	<header>
+		<h1> Gitta Giraffe </h1>
+		<nav>
+			<button id="savanne">Savanne</button>
+			<button id="woestijn">Woestijn</button>
+			<button id="party">Party</button>
+		</nav>
+		<p id="waarschuwing">Gitta vindt het niet fijn als je aan hem zit..</p>
+	</header>
+	<main id="speelveld" class="">
+		<input type="text" id="naam-input" placeholder="Vul je naam in...">
+		<h3 id="naam-tekst"></h3>
+		<img src="images/woestijn.jpg" alt="woestijn achtergrond" id="speelgrond" >
+			<img id="giraffe" class="" src="images/giraffe-normal.png" alt="giraffe">
+			 <div id="voederbuttons">
+				<button id="eten">Gitta eten geven</button>
+				<button id="drinken">Gitta drinken geven </button>
+			</div>
+			<p id="score">Dit is de score</p>
+	</main>
+<footer>
+<article>
+	<h5>Bronnen</h5>
+	<a href="https://nl.vecteezy.com/vector-kunst/89808-gratis-afrikaanse-savannah-landschap-vector">Savanne achtergrond</a>
+	<a href="https://www.amazon.com/Baocicco-Backdrop-Photography-Background-Entertainment/dp/B07P984JFQ">Party achtergrond</a>
+	<a href="https://www.freepik.com/premium-vector/desert-landscape-background-video-conferencing_9852201.htm">Woestijn achtergrond</a>
+</article>
+	<div id="audio">
+		<audio controls id="disco">
+			<source src="audio/disco.mp4" type="audio/mpeg">
+			</audio>
+			<audio controls id="etenaudio">
+				<source src="audio/drinken.mp4">
+				</audio>
+				<audio controls id="woestijnaudio">
+					<source src="audio/woestijn.mp4">
+					</audio>
+					<audio controls id="savanneaudio">
+						<source src="audio/savanne.mp4">
+						</audio>
+	</div>
+</footer>
+
+
+	<script src="javascript/script.js"></script>
+
+</body>
+
+</html>

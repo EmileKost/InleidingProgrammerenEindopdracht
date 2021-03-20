@@ -1,0 +1,214 @@
+@font-face {
+  src: url(../fonts/craftybeach.otf);
+  font-family: craftybeach;
+}
+
+@font-face {
+  src: url(../fonts/SummerLight-IrAX.otf);
+  font-family: summer;
+}
+
+body {
+  background-color: #52b69a;
+  transition: 2.5s;
+  font-family: avenir;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header {
+  font-family: craftybeach;
+  color: #f1f1f1;
+}
+
+header p {
+  text-align: center;
+  font-family: avenir;
+}
+
+#form {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+button {
+  height: 40px;
+  width: 200px;
+  border: 3px solid white;
+  border-radius: 25px;
+  background-color: #caffbf;
+  color: #457b9d;
+}
+
+button:hover {
+  border: 3px solid #457b9d;
+  border-radius: 40px;
+  color: #457b9d;
+}
+
+main {
+  transition: 1s;
+}
+
+
+main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 500px;
+  width: 800px;
+}
+
+#naam-tekst {
+  position: absolute;
+  top: 15px;
+  left: 200px;
+}
+
+#naam-input {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+
+#giraffe {
+  position: absolute;
+  height: 450px;
+  width: 450px;
+  top: 180px;
+  left: 370px;
+}
+
+#voederbuttons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 46%;
+  left: 1%;
+}
+
+#voederbuttons button {
+  margin: 10px;
+  height: 40px;
+  width: 150px;
+}
+
+/* Veranderende classes JS */
+
+.woestijn {
+  background-color: #fdfcdc;
+}
+
+.woestijn h1 {
+  color: #e76f51;
+}
+
+.woestijn button {
+  background-color: #e76f51;
+  border: 1px solid #d8e2dc;
+  color: white;
+}
+
+.woestijn button:hover {
+  border: 4px solid yellow;
+}
+
+.woestijn header p {
+  color: black;
+}
+
+.savanne {
+  background-color: #52b788;
+}
+
+.savanne h1 {
+  color: #1b4332;
+}
+
+.savanne button {
+  background-color: #00afb9;
+  border: 3px solid #0081a7;
+  color: #f1f1f1;
+}
+
+.savanne button:hover {
+  border: 4px solid #0081a7;
+}
+
+.party button {
+  background-color: #ffc6ff;
+  color: white;
+  border: 3px solid #bdb2ff;
+}
+
+.party button:hover {
+  border: 4px solid #bdb2ff;
+}
+
+.party {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.party h1 {
+  color: pink;
+}
+
+.party header p {
+  color: black;
+}
+
+/* Knuffel counter */
+
+#score {
+  font-size: 30px;
+  text-align: center;
+  font-family: craftybeach;
+  color: #48cae4;
+  background-color: #fefefe;
+  border: 5px solid #023e8a;
+  border-radius: 25px;
+  padding: 2px;
+  position: absolute;
+  bottom: 30px;
+  left: 250px;
+}
+
+
+footer {
+  margin-top: 5%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+article h5 {
+  margin-bottom: 5px;
+}
+
+article {
+  font-family: avenir;
+}
+
+article a {
+  display: flex;
+  flex-direction: row;
+}
+
+#audio {
+  visibility: hidden;
+}
